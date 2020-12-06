@@ -15,15 +15,23 @@ def main(num1=None, num2=None, ope=None):
         
     if ope == "+":
         result = (num1 + num2)
+    
     elif ope == "-":
         result = (num1 - num2)
+    
     elif ope == "*":
         result = (num1 * num2)
+    
     elif ope == "/":
         result = (num1 / num2)
+    
+    elif ope == "**":
+        result = (num1 ** num2)
+    
     else:
         print("Error in your input operator: {}. Make sure it's an operator.".format(ope))
         exit()
+    
     return result
 
 
