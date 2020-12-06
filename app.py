@@ -41,11 +41,11 @@ def main(circum=None, diame=None):
 
     except ValueError:
         print("Error in your input number: {}, {}. Make sure if they are number.".format(circum, diame))
-    
-
+        
     result = circum / diame
 
     return result
+
 
 
 while True:
