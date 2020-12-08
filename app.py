@@ -1,5 +1,5 @@
 #fucntion with the input and the operators
-def main(num1=None, num2=None, ope=None):
+def calculator(num1=None, num2=None, ope=None):
 
     result = None
 
@@ -35,7 +35,7 @@ def main(num1=None, num2=None, ope=None):
     return result
 
 
-print(main())
+print(calculator())
 
 
 #function to calculate pi
