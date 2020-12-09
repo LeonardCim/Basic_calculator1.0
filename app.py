@@ -1,5 +1,5 @@
-#fucntion with the input and the operators
 def calculator(num1=None, num2=None, ope=None):
+    '''function with the input and the operators'''
 
     result = None
 
@@ -38,8 +38,8 @@ def calculator(num1=None, num2=None, ope=None):
 print(calculator())
 
 
-#function to calculate pi
 def main(circum=None, diame=None):
+    '''function to calculate pi'''
 
     result = None
 
@@ -68,6 +68,5 @@ while True:
         print("Here your result:" ,main())
         
     break
-
 
 
